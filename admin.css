@@ -1,0 +1,92 @@
+body {
+	background: url('images.png') no-repeat;
+	background-size: cover;
+}
+h1{
+  text-align: center;
+}
+.price-container{
+	margin:10px 10px;
+	background: #b2ebf2;
+	width: 350px;
+	height: 50px;
+	padding: 10px 10px 0;
+	top: 57%;
+	left: 25%;
+	font-size: 18px;
+}
+.wallet-container {
+    background: #6562ad;
+    width: 520px;
+		color: #fff;
+		font-size: 16px;
+		padding: 20px 20px 0;
+		top: 63%;
+		left: 50%;
+    /* bottom: 10%; */
+		transform: translate(-50%,-50%);
+		position: absolute;
+}
+
+.page-title {
+	text-align: left;
+}
+
+.fa-user {
+	float: right;
+}
+
+.fa-align-left {
+	margin-right: 15px;
+}
+
+.amount-box img {
+	width: 150px;
+}
+
+.amount {
+	font-size: 35px;
+}
+
+.amount-box p {
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+
+.btn-group {
+	margin: 20px 0;
+}
+
+.btn-group .btn {
+	margin: 8px;
+	border-radius: 20px !important;
+	font-size: 15px;
+}
+
+.txn-history {
+	text-align: left;
+}
+
+.txn-list {
+	background-color: #fff;
+	padding: 12px 10px;
+	color: #777;
+	font-size: 16px;
+	margin: 7px 0;
+}
+
+.credit-amount {
+	color: green;
+	float: right;
+}
+
+.footer-menu {
+	margin: 20px -20px 0;
+	bottom: 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 10px 0;
+}
+
+.footer-menu p {
+	font-size: 12px;
+}

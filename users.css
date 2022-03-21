@@ -1,0 +1,129 @@
+body {
+font-family: "arial";
+background: url('images.png') no-repeat;
+background-size: cover;
+}
+.price-container{
+	margin:10px 10px;
+	background: #b2ebf2;
+	width: 350px;
+	height: 50px;
+	padding: 10px 10px 0;
+	left: 25%;
+	font-size: 18px;
+}
+.container {
+	 max-width: 655px;
+	 height: 815px;
+	 margin: 20px auto;
+	 box-shadow: 0 0 20px #9a9a9a;
+	 overflow: hidden;
+	 border-radius: 10px;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+	 position: absolute;
+}
+ .header {
+	 background: #4D77FF;
+	 padding: 35px;
+}
+ .main-account {
+	 float: right;
+}
+ .main-account a {
+	 color: #f9bdbd;
+	 font-size: 0.8em;
+	 font-weight: 500;
+}
+ .top-view {
+	 padding-top: 20px;
+}
+ .top-view .payment-infos {
+	 display: inline-block;
+	 vertical-align: top;
+}
+ .top-view .payment-infos .current-balance {
+	 font-size: 1.25em;
+	 font-weight: 300;
+}
+ .top-view .payment-infos .price {
+	 font-size: 2.1em;
+	 font-weight: 500;
+	 padding-top: 5px;
+}
+ .top-view .payment-infos .btc {
+	 font-size: 0.95em;
+	 padding-top: 3px;
+}
+ .ctas {
+	 display: block;
+	 padding: 30px 0 50px;
+	 width: 100%;
+}
+ .ctas button {
+	 width: 120px;
+	 background-color: #f9bdbd;
+	 border-radius: 50px 50px;
+	 padding: 10px 10%;
+	 font-size: 0.9em;
+	 border: none;
+	 cursor: pointer;
+}
+ .ctas button:hover {
+	 box-shadow: 0 0 5px #f9bdbd;
+}
+ .ctas button:focus {
+	 outline: 0;
+}
+ .ctas .send {
+	 float: right;
+}
+ .bottom-view {
+	 padding: 20px;
+	 background-color: #f6f6fa;
+	 height: 100%;
+}
+ .bottom-view ul {
+	 margin: -50px 0 0;
+	 padding: 0;
+	 list-style: none;
+}
+ .bottom-view .payment-card {
+	 vertical-align: top;
+	 background: #fff;
+	 margin-bottom: 15px;
+	 box-shadow: 0 0 6px #808080;
+	 border-radius: 6px;
+	 padding: 10px 18px;
+}
+ .bottom-view .payment-card .hour {
+	 vertical-align: top;
+	 display: inline-block;
+	 color: black;
+	 font-size: 0.9em;
+	 font-weight: 500;
+}
+ .bottom-view .payment-card .price {
+	 vertical-align: top;
+	 float: right;
+	 font-weight: 500;
+}
+ .bottom-view .payment-card .price.negative {
+	 color: red;
+	 font-size: 0.92em;
+}
+ .bottom-view .payment-card .price.positive {
+	 color: green;
+	 font-size: 0.92em;
+}
+ .bottom-view .payment-card .token {
+	 font-size: 0.95em;
+	 color: #6562ad;
+	 font-weight: 500;
+	 padding: 10px 0;
+	 border-bottom: 0.5px solid #d8d8d8;
+}
+ .bottom-view .payment-card .score {
+	 font-size: 0.85em;
+}
